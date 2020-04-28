@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".delete"
+    android:background="@drawable/biblioteca">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Delete a book"
+        android:textSize="24sp"
+        android:background="#99ffffff" />
+
+        <EditText
+            android:id="@+id/editTextTitlu_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:hint="Title of the Book"
+            android:inputType="textPersonName|textCapSentences"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/editTextAutor_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:hint="Author of the Book"
+            android:inputType="text|textCapSentences"
+            android:padding="10dp" />
+
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/editTextEditura_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Publisher Name"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:inputType="textPersonName" />
+
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/editTextAnPublicatie_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Book Number"
+            android:background="#ffffff"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextCota_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Book Number"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonDeleteBook"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Delete All books"
+        android:padding="5dp"
+        android:background="#4CAF50"
+        android:textSize="18sp"
+        android:textColor="#fff"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/editTextExemplarId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Id Exemplar"
+            android:background="#ffffff"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/editTextBookNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Book number"
+            android:background="#ffffff"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:inputType="textPersonName"/>
+        <Button
+            android:id="@+id/buttonDeleteExemplar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Delete Exemplar"
+            android:padding="5dp"
+            android:background="#4CAF50"
+            android:textSize="18sp"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+</LinearLayout>
+
+</ScrollView>

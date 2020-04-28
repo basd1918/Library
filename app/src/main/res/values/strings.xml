@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Biblioteca</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="cnp">CNP</string>
+    <string name="telefon">Phone</string>
+    <string name="adresa">Adress</string>
+    <string name="nume">Full Name</string>
+    <string name="login">LOGIN</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="welcome_user">Welcome!</string>
+    <string name="type">Type</string>
+    <string name="user_type">User Type</string>
+    <string name="_register">REGISTER</string>
+    <string-array name="userType">
+        <item>Abonat</item>
+        <item>Bibliotecar</item>
+    </string-array>
+</resources>

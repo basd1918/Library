@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Restituie"
+    android:background="@drawable/biblioteca">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <TextView
+        android:text="Return a book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:background="#99ffffff"
+        />
+    <EditText
+        android:id="@+id/editTextCotaCarteReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Book number"
+        android:background="#ffffff"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/editTextIdExemplarReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Id Exemplar"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:inputType="number" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="return this book"
+        android:id="@+id/buttonReturnBook"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:background="#4CAF50"
+        android:textSize="18sp"
+        android:textColor="#fff"/>
+</LinearLayout>
+
+</ScrollView>
